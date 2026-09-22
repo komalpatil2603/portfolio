@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komal Mahesh Patil | Aspiring ML Engineer</title>
+  <meta name="description" content="Portfolio of Komal Mahesh Patil, B.Tech AI &amp; Data Science student and aspiring Machine Learning Engineer.">
+
+  <!-- Google Fonts: Inter (body) + Poppins (headings) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="scrollProgress"></div>
+  <div id="cursorGlow"></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="#home" class="nav-logo">🐾 Komal Patil</a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+      <div class="hero-blob hero-blob--1" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob--2" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob--3" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <h1 class="hero-name"><span class="wave-emoji" aria-hidden="true">🐱</span> Komal Patil</h1>
+        <p class="hero-title">Aspiring ML Engineer</p>
+        <p class="hero-tagline" id="heroTagline"></p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section reveal">
+      <div class="container about-grid">
+        <div class="about-photo">
+          <!-- Replace images/profile.jpg with your own photo -->
+          <img src="images/profile.jpg" alt="Photo of Komal Mahesh Patil" class="profile-img">
+        </div>
+        <div class="about-content">
+          <h2 class="section-heading">About Me</h2>
+          <p class="section-text">
+            I'm Komal Patil, currently pursuing my B.Tech in Artificial Intelligence &amp; Data Science
+            at DY Patil College of Engineering, Akurdi. Before this, I completed my Diploma in Computer
+            Engineering from Government Polytechnic, Jalgaon, with a score of 92.69%.
+          </p>
+          <p class="section-text">
+            I enjoy working across both the theory and application sides of technology — from understanding
+            how machine learning models work, to building clean, functional interfaces with HTML, CSS,
+            JavaScript, and React. I'm currently focused on strengthening my practical and hands-on
+            development skills as I prepare for my upcoming internship and placements.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section section-alt reveal">
+      <div class="container">
+        <h2 class="section-heading">Skills</h2>
+
+        <div class="skills-groups">
+          <div class="skill-group">
+            <h3 class="skill-group-title">Web Development</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">HTML</li>
+              <li class="skill-tag">CSS</li>
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">React.js</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Machine Learning</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">Python</li>
+              <li class="skill-tag">Data Analysis</li>
+              <li class="skill-tag">ML Fundamentals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2 class="section-heading">Projects</h2>
+        <p class="section-text section-intro">A selection of things I've built. Replace these with your own work as you complete it.</p>
+
+        <div class="project-grid">
+
+          <!--
+            ================================================================
+            PROJECT CARD TEMPLATE
+            To add a new project: copy one <article class="project-card">
+            block (from <article> to </article>) and paste it inside
+            .project-grid, then edit the image, title, description,
+            tech tags, and links.
+            ================================================================
+          -->
+          <article class="project-card">
+            <img src="images/project-placeholder-1.svg" alt="Preview of Project One" class="project-img">
+            <div class="project-body">
+              <h3 class="project-title">Project One</h3>
+              <p class="project-desc">A short description of what this project does and the problem it solves.</p>
+              <ul class="project-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </article>
+          <!-- END PROJECT CARD TEMPLATE -->
+
+          <article class="project-card">
+            <img src="images/project-placeholder-2.svg" alt="Preview of Project Two" class="project-img">
+            <div class="project-body">
+              <h3 class="project-title">Project Two</h3>
+              <p class="project-desc">A short description of what this project does and the problem it solves.</p>
+              <ul class="project-tech">
+                <li>React</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/project-placeholder-3.svg" alt="Preview of Project Three" class="project-img">
+            <div class="project-body">
+              <h3 class="project-title">Project Three</h3>
+              <p class="project-desc">A short description of what this project does and the problem it solves.</p>
+              <ul class="project-tech">
+                <li>Python</li>
+                <li>Machine Learning</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE & EDUCATION ============ -->
+    <section id="experience" class="section section-alt reveal">
+      <div class="container">
+        <h2 class="section-heading">Experience &amp; Education</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Ongoing</p>
+              <h3 class="timeline-title">Android Lead — IASC College Club</h3>
+              <p class="timeline-text">Leading the Android vertical of the club, coordinating projects and mentoring members on app development.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Ongoing</p>
+              <h3 class="timeline-title">PR Lead — Anveshika Club</h3>
+              <p class="timeline-text">Managing public relations and outreach efforts to promote club events and initiatives.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Current</p>
+              <h3 class="timeline-title">B.Tech, Artificial Intelligence &amp; Data Science</h3>
+              <p class="timeline-text">DY Patil College of Engineering, Akurdi — CGPA: 9.00</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Completed</p>
+              <h3 class="timeline-title">Diploma, Computer Engineering</h3>
+              <p class="timeline-text">Government Polytechnic, Jalgaon — 92.69%</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section reveal">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 class="section-heading">Contact</h2>
+          <p class="section-text">Feel free to reach out for opportunities, collaborations, or just to say hello.</p>
+
+          <ul class="contact-list">
+            <li><span class="contact-label">Email:</span> <a href="mailto:komalpatilwork0326@gmail.com">komalpatilwork0326@gmail.com</a></li>
+            <li><span class="contact-label">LinkedIn:</span> <a href="https://www.linkedin.com/in/komal-patil-3ba1822b2" target="_blank" rel="noopener noreferrer">komal-patil-3ba1822b2</a></li>
+            <li><span class="contact-label">GitHub:</span> <a href="https://github.com/komalpatil2603" target="_blank" rel="noopener noreferrer">komalpatil2603</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Komal Mahesh Patil. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
